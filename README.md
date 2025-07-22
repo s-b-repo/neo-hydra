@@ -21,14 +21,46 @@
 
 **1. Clone & Install dependencies:**
 ```
-git clone https://github.com/YOURUSER/xneon_hydra.git
-cd xneon_hydra
+git clone https://github.com/neo-hydra/neo-hydra.git
+cd neo-hydra
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
-# or manually:
-pip install PyQt5 pygame
 ````
+pip install PyQt5 pygame
+
+For PyQt5
+
+On most modern systems, pip install PyQt5 is enough.
+If you get errors, install Qt system libs:
+````
+sudo apt update
+sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine
+````
+(If you use pip only, you usually don’t need this, but it can help with missing plugins or system-level integration.)
+
+For Pygame
+Install SDL libraries and audio codecs if pip install fails:
+````
+sudo apt install libsdl2-dev libsdl2-mixer-dev libasound2-dev
+````
+For ALSA (Audio)
+Most Linux systems already have alsa-utils and libasound2, but if not:
+````
+sudo apt install alsa-utils libasound2
+````
+3. External dependencies
+
+Hydra (for brute-forcing):
+Your tool expects the command-line tool hydra to be installed and in your PATH.
+
+sudo apt install hydra
+
+(Or install from source: https://github.com/vanhauser-thc/thc-hydra)
+
+music.mp3 file
+
+You must have a file named music.mp3 in the same directory as your script (or change the path in the code)
+
 
 **2. Prerequisites:**
 
@@ -43,7 +75,7 @@ pip install PyQt5 pygame
 ## ⚡ Usage
 
 ```
-python3 neon_xhydra.py
+python3 neo-xhydra.py
 ```
 
 * Enter your **target**, **user/pass files**, select protocol.
