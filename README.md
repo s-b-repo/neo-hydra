@@ -52,9 +52,9 @@ sudo apt install alsa-utils libasound2
 
 Hydra (for brute-forcing):
 Your tool expects the command-line tool hydra to be installed and in your PATH.
-
+````
 sudo apt install hydra
-
+````
 (Or install from source: https://github.com/vanhauser-thc/thc-hydra)
 
 music.mp3 file
@@ -87,7 +87,7 @@ python3 neo-xhydra.py
 
 ## 🎛️ Supported Protocols
 
-```python
+```
 ["afp","asterisk","cisco","cisco-enable","cisco-ise","cisco-ssh","cisco-telnet","cvs","firebird","ftp","ftps",
 "http-form-get","http-form-post","http-form-auth","http-get","http-get-auth","http-head","http-head-auth","http-proxy",
 "http-proxy-urlenum","http-put","https-form-get","https-form-post","https-get","https-get-auth","https-head","https-head-auth",
