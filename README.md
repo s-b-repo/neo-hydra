@@ -16,6 +16,12 @@
 - **Persistent modern dark theme** (Cyberpunk 2077 inspired and mr robot.)
 
 ---
+## ✨ Screenshots
+
+![Screenshot](https://raw.githubusercontent.com/s-b-repo/neo-hydra/main/neo.png)
+---
+
+
 
 ## 🛠️ Installation
 
@@ -128,10 +134,7 @@ python3 neo-xhydra.py
 
 ---
 
-## ✨ Screenshots
 
-to do
----
 
 ## ⚡ Credits & License
 
