@@ -1,5 +1,5 @@
 
-# ⚡ neo hydra – GUI Brute-Force Attack Platform
+# 🐉🐉🐉 Neo hydra – GUI Brute-Force Attack Platform
 
 > **Modern Python3 GUI for running [Hydra](https://github.com/vanhauser-thc/thc-hydra) password attacks – now with enterprise cyberpunk vibes and built-in music!**
 
