@@ -147,5 +147,3 @@ python3 neo-xhydra.py
 > **For educational and authorized testing only! Always respect legal boundaries and target owner permission.**
 
 ```
-
---
