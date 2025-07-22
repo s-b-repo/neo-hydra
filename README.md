@@ -1,5 +1,5 @@
 
-# ⚡ xneon hydra – GUI Brute-Force Attack Platform
+# ⚡ neo hydra – GUI Brute-Force Attack Platform
 
 > **Modern Python3 GUI for running [Hydra](https://github.com/vanhauser-thc/thc-hydra) password attacks – now with enterprise cyberpunk vibes and built-in music!**
 
@@ -13,7 +13,7 @@
 - **Custom Hydra parameter field**
 - **Real-time output viewer**
 - **Animated RGB volume slider** for built-in background music
-- **Persistent modern dark theme** (Cyberpunk 2077 inspired)
+- **Persistent modern dark theme** (Cyberpunk 2077 inspired and mr robot.)
 
 ---
 
