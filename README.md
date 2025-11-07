@@ -3,7 +3,7 @@
 
 > **Modern Python3 GUI for running [Hydra](https://github.com/vanhauser-thc/thc-hydra) password attacks – now with enterprise cyberpunk vibes and built-in music!**
 
----
+
 
 ## 🚀 Features
 
@@ -18,8 +18,8 @@
 ---
 ## ✨ Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/s-b-repo/neo-hydra/main/neo.png)
----
+![Screenshot](https://raw.githubusercontent.com/s-b-repo/neo-hydra/main/preview%20neo.png)
+
 
 
 
@@ -66,7 +66,7 @@ You must have a file named music.mp3 in the same directory as your script (or ch
 
 **3. Optional: Place `music.mp3` in the script directory for custom theme music!**
 
----
+
 
 ## ⚡ Usage
 
@@ -93,7 +93,7 @@ python3 neo-xhydra.py
 "xmpp","xmpp-auth","xymon","mongodb"]
 ```
 
----
+
 
 ## ⚠️ Warnings & Troubleshooting
 
@@ -122,7 +122,6 @@ python3 neo-xhydra.py
 * **No attack output?**
   Make sure `hydra` is installed and in your PATH, and your wordlists exist.
 
----
 
 
 
@@ -132,7 +131,7 @@ python3 neo-xhydra.py
 * GUI and enhancements by [ethical hacker teddy](https://github.com/s-b-repo/)
 * MIT License
 * the song is 2 - Mr. Robot - 1.0_2 oneincontrol.aiff (Mac Quayle) support the creator
----
+
 
 > **For educational and authorized testing only! Always respect legal boundaries and target owner permission.**
 
