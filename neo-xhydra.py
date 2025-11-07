@@ -16,7 +16,7 @@ from PyQt6.QtGui import QTextCursor, QFont, QIntValidator, QValidator, QPalette,
 from PyQt6.QtMultimedia import QMediaPlayer, QAudioOutput
 
 # Constants
-APPLICATION_NAME = "NEO HYDRA :: MODERN EDITION"
+APPLICATION_NAME = "NEO HYDRA"
 SETTINGS_ORG = "CyberHydra"
 SETTINGS_APP = "MainConfig"
 MUSIC_FILE = "music.mp3"
