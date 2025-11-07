@@ -32,19 +32,9 @@ cd neo-hydra
 python3 -m venv venv
 source venv/bin/activate
 ````
-pip install PyQt5 pygame
+pip install PyQt6 
 
-For PyQt5
 
-On most modern systems, pip install PyQt5 is enough.
-If you get errors, install Qt system libs:
-````
-sudo apt update
-sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine
-````
-(If you use pip only, you usually don’t need this, but it can help with missing plugins or system-level integration.)
-
-For Pygame
 Install SDL libraries and audio codecs if pip install fails:
 ````
 sudo apt install libsdl2-dev libsdl2-mixer-dev libasound2-dev
