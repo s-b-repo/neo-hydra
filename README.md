@@ -31,8 +31,9 @@ git clone https://github.com/neo-hydra/neo-hydra.git
 cd neo-hydra
 python3 -m venv venv
 source venv/bin/activate
-````
 pip install PyQt6 
+````
+
 
 
 Install SDL libraries and audio codecs if pip install fails:
